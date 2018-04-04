@@ -1,6 +1,7 @@
 # CommonDialog
 万能Dialog
 配置：
+	
 	allprojects {
 		repositories {
 			...
@@ -14,7 +15,8 @@
 	}
 
 使用：
- CommonDialog commonDialog = new CommonDialog.Builder(MainActivity.this)
+
+	 CommonDialog commonDialog = new CommonDialog.Builder(MainActivity.this)
                         .setView(R.layout.xxxxxxx)
                         .setHeight(ViewGroup.LayoutParams.WRAP_CONTENT)
                         .setWidth(getResources().getDisplayMetrics().widthPixels)
